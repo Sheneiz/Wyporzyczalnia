@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Car",
+    "attributes": {
+      "fuelType": {
+        "type": "string",
+        "allowed": ["Petrol", "Diesel", "Electric", "Hybrid", "Benzyna", "Ropa", "Gasoline"]
+      }
+    }
+  },
+  {
+    "category": "Motorcycle",
+    "attributes": {
+      "licence": {
+        "type": "string",
+        "allowed": ["A", "A1", "A2", "AM"]
+      },
+      "fuelType": {
+        "type": "string",
+        "allowed": ["Petrol", "Diesel", "Electric", "Hybrid", "Benzyna", "Ropa", "Gasoline"]
+      }
+    }
+  },
+  {
+    "category": "Bus",
+    "attributes": {
+      "seats": {
+        "type": "integer"
+      }
+    }
+  }
+]
